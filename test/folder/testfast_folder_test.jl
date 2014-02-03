@@ -1,3 +1,3 @@
-@test "this file is loaded" quote
+@test "this file is loaded" begin
   @assert 1 == 1
 end

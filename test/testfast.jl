@@ -1,4 +1,3 @@
-using Base.Test
 using Testfast
 
 # Run once before all tests

@@ -92,7 +92,7 @@ function run_tests()
       end
 
       try
-        eval(eval(test.code))
+        eval(:(esc(eval($test.code))))
         print_with_color(:green, ".")
       catch e
         print_with_color(:red, "F")
